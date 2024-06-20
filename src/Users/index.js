@@ -17,6 +17,9 @@ const Users = ()=>{
             key={users.id}
             image={users.image}
             fullName={`${users.firstName} ${users.lastName}`}
+            age={users.age}
+            gender = {users.gender}
+          
             />
 
            )):!loading && <h2>No users found</h2>
