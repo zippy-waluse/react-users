@@ -1,6 +1,5 @@
 .modal {
     position: fixed;
-    z-index: 1;
     left: 0;
     top: 0;
     width: 100%;
@@ -10,10 +9,10 @@
   }
   
   .content {
-    background-color: #fefefe;
+    background-color: rgb(red, green, blue);
     margin: 15% auto;
     padding: 20px;
-    border: 1px solid #888;
+    border: 1px solid white;
     width: 80%;
   }
   

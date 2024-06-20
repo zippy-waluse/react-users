@@ -1,4 +1,4 @@
-const UserCard = ({image,fullName,age,gender}) =>{
+const UserCard = ({image,fullName,age,gender,email}) =>{
     return(
         <div>
             <img src={image} alt={`${fullName} profile`}/>
@@ -6,7 +6,8 @@ const UserCard = ({image,fullName,age,gender}) =>{
             <h2>{fullName}</h2>
             <h2>{age}</h2>
             <h2>{gender}</h2>
-          
+            <h2>{email}</h2>
+        
               
         </div>
     );
