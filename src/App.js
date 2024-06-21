@@ -7,31 +7,6 @@ import LoginLink from './LoginLink'
 
 
 
-// export const Introduction=()=>{
-// return(
-//   <h1>We are Adalab</h1>
-// )
-
-// }
-
-// const App = () => {
-// return(
-//   <div>
-//     <LoginLink/>
-
-//      <Routes></Routes>   
-//     <Login/>
-//     <Users/>
-    
-    
-//   </div>
-// )
-
-// }
-
-
-
-
 
 function App(){
    return(
